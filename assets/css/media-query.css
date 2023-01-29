@@ -1,0 +1,430 @@
+@media (min-width: 1440px){
+
+    /* Nav - Start */
+    .nav-content li a{
+        padding: 12px 25px;
+    }
+    .container::before{
+        width: 25%;
+        left: -110px;
+    }
+    .drop-down-nav{
+        display: none;
+    }
+    /* Nav - End */
+
+    /* Hero - Start */
+    .hero-container{
+        display: flex;
+    }
+    .hero-content .title{
+        font-size: 75px;
+    }
+    .hero-content p{
+        margin: 0 0 45px;
+    }
+    .hero-img>img{
+        width: 600px;
+    }
+    /* Hero - End */
+
+    /* Competetion - Start */
+    .competition-container{
+        max-width: 1230px;
+        margin: 0 auto;
+    }
+    .competetion-card>a{
+        bottom: 124px;
+    }
+    .card-content{
+        padding: 35px 30px;
+    }
+    .card-content>a{
+        font-size: 20px;
+    }
+    /* Competetion - End */
+
+    /* Competetion team - Start */
+    .competetion-team-container{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .competetion-team-content>span{
+        margin: 0 auto 100px;
+    }
+    .team-img{
+        padding: 0 15px;
+    }
+    h2.live{
+        left: -90%;
+        font-size: 380px;
+    }
+    /* Competetion team - End */
+    
+    /* Shop  - Start */
+    .shop-cards{
+        flex-wrap: nowrap;  
+    }
+    /* Shop  - End */
+
+    /* Blog - Start */
+    .blog-cards{
+        flex-wrap: nowrap;
+    }
+    /* Blog - End */
+
+    /* Newsletter - Start */
+    .newsletter{
+        max-width: 1230px;
+    }
+    .newsletter-form{
+        flex-direction: row;
+    }
+    form input{
+        width: 500px;
+    }
+    .footer-content{
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    /* Newsletter - End */
+}
+
+@media (min-width: 1024px) and (max-width: 1440px){
+
+    /* Nav - Start */
+    .nav-content li a{
+        padding: 12px 25px;
+    }
+    .container::before{
+        width: 23%;
+        left: -5%;
+    }
+    .drop-down-nav{
+        display: none;
+    }
+    /* Nav - End */
+
+    /* Hero - Start */
+    .hero-container{
+        display: flex;
+    }
+    .hero-content .title{
+        font-size: 75px;
+    }
+    .hero-content p{
+        margin: 0 0 45px;
+    }
+    .hero-img>img{
+        width: 600px;
+    }
+    /* Hero - End */
+
+    /* Icons - Start */
+    /* Icons - End */
+
+    /* Competetion - Start */
+    .competetion-card-container{
+        flex-wrap: nowrap;
+    }
+    .competetion-team-container{
+        justify-content: space-around;
+    }
+    .competition-container{
+        max-width: 1230px;
+        margin: 0 auto;
+    }
+    .competetion-card>a{
+        bottom: 124px;
+    }
+    .card-content{
+        padding: 35px 30px;
+    }
+    .card-content>a{
+        font-size: 20px;
+    }
+    /* Competetion - End */
+
+    /* Competetion team - Start */
+    .team-img{
+        padding: 0 25px;
+    }
+    .team-img.one::before{
+        right: 5px;
+    }
+    h2.live{
+        font-size: 380px;
+        right: -70%;
+    }
+    /* Competetion team - End */
+
+    /* Shop  - Start */
+    .shop-cards{
+        flex-wrap: nowrap;  
+    }
+    /* Shop  - End */
+
+    /* Blog - Start */
+    .blog-cards{
+        flex-wrap: nowrap;
+    }
+    /* Blog - End */
+
+    /* Newsletter - Start */
+    .newsletter{
+        max-width: 960px;
+    }
+    .newsletter-form{
+        flex-direction: column;
+    }
+    .footer-content{
+        flex: 0 0 16.5%;
+        max-width: 16.5%;
+    }
+    /* Newsletter - End */
+}
+
+@media (min-width: 700px) and (max-width: 1024px){
+
+    /* sec nav - start */
+    #main-menu{
+        display: none;
+    }
+    .drop-down-nav{
+        display: block;
+    }
+    /* sec nav - end */
+
+
+    /* Nav - Start */
+    .nav-content li a{
+        padding: 12px 17px;
+    }
+    .container::before{
+        display: none;
+    }
+    .drop-down-container>a{
+        margin-right: 150px;
+    }
+    /* Nav - End */
+
+    /* Hero - Start */
+    .hero-container{
+        display: flex;
+    }
+    .hero-content .title{
+        font-size: 75px;
+    }
+    .hero-content p{
+        margin: 0 0 45px;
+    }
+    .hero-img>img{
+        display: none;
+    }
+    /* Hero - End */
+
+    /* Competetion - Start */
+    .competetion-cards-container{
+        flex-wrap: wrap;
+    }
+    .competition-container{
+        max-width: 1230px;
+        margin: 0 auto;
+    }
+    .competetion-card>a{
+        bottom: 124px;
+    }
+    .card-content{
+        padding: 35px 30px;
+    }
+    .card-content>a{
+        font-size: 20px;
+    }
+    /* Competetion - End */
+
+    /* Competetion team - Start */
+    .competetion-team-container{
+        flex-wrap: wrap;
+    }
+    .team-img{
+        padding: 10px 25px;
+    }
+    .team-img.one{
+        margin-right: auto;
+    }
+    .team-img.two{
+        margin-left: auto;
+    }
+    .team-img.one::before{
+        right: 5px;
+    }
+    .competetion-team-content{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .competetion-team-content>span{
+        margin: 0 auto 20px;
+    }
+    h2.live{
+        left: 15%;
+        font-size: 380px;
+    }
+    /* Competetion team - End */
+
+    /* Shop  - Start */
+    .shop-cards{
+        flex-wrap: wrap;  
+    }
+    /* Shop  - End */
+
+    /* Blog - Start */
+    .blog-cards{
+        flex-wrap: wrap;
+    }
+    /* Blog - End */
+
+    /* Newsletter - Start */
+    .newsletter{
+        max-width: 720px;
+    }
+    .newsletter-form{
+        flex-direction: column;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .footer-content{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    /* Newsletter - End */
+}
+
+@media (min-width: 320px) and (max-width: 700px){
+
+    /* sec nav - start */
+    #main-menu{
+        display: none;
+    }
+    .drop-down-nav{
+        display: block;
+    }
+    .drop-down-container>a{
+        margin-right: 150px;
+    }
+    /* sec nav - end */
+
+    /* Nav - Start */
+    .nav-content li a{
+        padding: 12px 17px;
+    }
+    /* Nav - End */
+
+    /* Hero - Start */
+    .hero-container{
+        display: flex;
+    }
+    .hero-content .title{
+        font-size: 75px;
+    }
+    .hero-content p{
+        margin: 0 0 45px;
+    }
+    .hero-img>img{
+        display: none;
+    }
+    /* Hero - End */
+
+    /* Competetion - Start */
+    .competetion-cards-container{
+        flex-wrap: wrap;
+    }
+    .competition-container{
+        max-width: 1230px;
+        margin: 0 auto;
+    }
+    .competetion-card>a{
+        bottom: 82px;
+    }
+    .card-content{
+        padding: 15px 30px;
+    }
+    .card-content>a{
+        font-size: 19px;
+    }
+    /* Competetion - End */
+
+    /* Competetion team - Start */
+    .competetion-team-container{
+        flex-wrap: wrap;
+    }
+    .team-img{
+        padding: 10px 25px;
+    }
+    .team-img.one{
+        margin-right: auto;
+    }
+    .team-img.two{
+        margin-left: auto;
+    }
+    .team-img.one::before{
+        right: 5px;
+    }
+    .competetion-team-content{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .competetion-team-content>span{
+        margin: 0 auto 20px;
+    }
+    h2.live{
+        left: 5%;
+        font-size: 220px;
+    }
+    /* Competetion team - End */
+
+    /* Shop  - Start */
+    .shop-cards{
+        flex-wrap: wrap;  
+    }
+    /* Shop  - End */
+
+    /* Blog - Start */
+    .blog-cards{
+        flex-wrap: wrap;
+    }
+    /* Blog - End */
+
+    /* Newsletter - Start */
+    .newsletter{
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .newsletter-form{
+        flex-direction: column;
+    }
+    .newsletter-form form{
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    .footer-content{
+        width: 100%;
+    }
+    /* Newsletter - End */
+
+    /* Footer - Start */
+    div.footer{
+        flex-wrap: wrap;
+    }
+    div.methods{
+        display: none;
+    }
+    .footer-text{
+        text-align: center;
+    }
+    /* Footer - End */
+}
